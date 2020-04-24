@@ -1,0 +1,13 @@
+.slide{
+    padding: 1cm 1cm 1cm 1cm;
+    margin-top: 2cm;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.item{
+    width: 350px;
+    padding-bottom: 1cm;
+    border-radius: 10px;
+   
+}
