@@ -1,0 +1,30 @@
+.carte3{
+    display:flex;
+    justify-content:space-between;
+    margin-top: 20px;
+    
+    border-radius: 7%;
+    
+}
+
+.photo3{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 40px;
+    
+    border-radius: 7%;
+}
+
+p{
+    font-family: 'Patua One', serif;
+    letter-spacing: 2px;  
+    font-weight: 200;
+    color: grey;
+}
+
+h2{
+    font-family: 'Patua One', serif;
+    letter-spacing: 2px;
+    font-size: 50px;
+    color: brown;
+}                                       

@@ -1,13 +1,12 @@
 import React from "react";
 import "./App.css";
-import Header from "./header/header";
-import Apropos from "./ a-propos/main";
+
+import Apropos from "./apropos/main";
+import Footer from "./footer/footer";
 
 function App() {
   return (
-    
     <div className="app">
-     
       <Apropos/>
     </div>
   );
