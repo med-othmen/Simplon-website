@@ -1,0 +1,20 @@
+.header {
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 100px;
+    background-color: rgb(207, 31, 31);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    width: 80%;
+    top: 0;
+    z-index: 144444;
+    box-shadow: 10px 5px 5px rgb(167, 147, 105);
+    text-align: center;
+    
+}
+
+ 
+ 
