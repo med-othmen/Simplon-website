@@ -28,9 +28,9 @@ const pictSlides=[img1, img2, img3,img4,img5,img6 ]
 
 // tableau des images d'équipes pour l'utiliser dans la composent 'team'
 const teampictures=[
- {name: "Mouna ayari", src: directrice},
- {name: "Mohamed seif hamza", src: formateur},
- {name: "Syrine Auguste Amy", src: responsable}
+ {name: "Mouna ayari", src: directrice, poste:"Directice"},
+ {name: "Mohamed seif hamza", src: formateur, poste:"Formateur"},
+ {name: "Syrine Auguste Amy", src: responsable, poste:"Chef de fabrique"}
 ]
 
 function Equipe() {

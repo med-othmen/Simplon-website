@@ -10,6 +10,7 @@ function Team(props) {
     
              <img className="card" src={el.src} alt="logo " />
              <h1 className="name">  {el.name} </h1> 
+             <h3 className="poste">{el.poste}</h3>
 
             </div>      
               )
