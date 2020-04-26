@@ -1,12 +1,25 @@
 import React from 'react';
 import './style.css';
 import Nouveaute from './nouveaute/index';
+// importer les images des partenaires 
+import logo1 from './img/partenaires-logo/Logo Societé générale.png'
+import logo2 from './img/partenaires-logo/logo-ile-de-france.png'
+import logo3 from './img/partenaires-logo/partner3.jpeg'
+import Partners from './Partenaires/Partenaires'
 
 
 // importer les images des actualités section 
 import act1 from './img/actualite/actualite.jpg'
 import act2 from './img/actualite/actualite2.jpg'
 import act3 from './img/actualite/actualite3.jpg'
+// Nos partenaires 
+const Partner = [
+  {name : "Société générale " , source : logo1},
+  {name : "Ile de france" , source : logo2},
+  {name : "partner3" , source : logo3}
+
+  
+]
 
 
 // tableau des nouveautés 
@@ -31,6 +44,7 @@ function Accueil() {
     <div className="App">
       
    <Nouveaute nouveaute={nouveautés} />
+   <Partners  Partner= {Partner} />
 
     </div>
   )
