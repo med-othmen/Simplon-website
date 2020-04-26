@@ -1,14 +1,13 @@
 import React from "react";
 import "./App.css";
-import Header from "./header/header";
-import Apropos from "./ a-propos/main";
+import ContactPage from './Contact/MainContact'
 
 function App() {
   return (
     
     <div className="app">
      
-      <Apropos/>
+      <ContactPage/>
     </div>
   );
 }

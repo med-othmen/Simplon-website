@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    margin-top: 50px;
+    margin-left: 60px;
+    font-size: 2rem;
+    padding: 10px 3px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #fff;
+    background-color:#cd3e3a;
+    width: 250px;
+
+}
+.location {
+    border:0;
+    margin-left: 4%;
+    margin-bottom: 5%;
+    width: 60%;
+    height: 350px;
+}
+.adress{
+    width: 30%;
+    margin-right: 4%;
+    height: 350px;
+}
+.adress h3{
+  
+  font-size: 2rem;
+  padding: 5px 2px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #cd3e3a;
+  width: 250px;
+}
+.adress h4{
+    
+    font-size: 1rem;
+    font-weight: 300;
+    color: #cd3e3a;
+    width: 200px;
+  }

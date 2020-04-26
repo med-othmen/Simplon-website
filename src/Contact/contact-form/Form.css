@@ -1,0 +1,79 @@
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+.contact-info-title {
+    color: white;
+}
+.contact-info-title-h4 {
+    color: white;
+    font-family: Rubik,sans-serif;
+    margin: 0;
+    font-weight: 400;
+    padding: 0;
+    font-size: 1.5rem;
+
+}
+.contact-information{
+    background: #cd3e3a;
+    padding: 4%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    width: 18%;
+    margin-left: 5%;
+    margin-bottom: 0%;
+    height: 400px;
+    
+}
+.contact-info{
+    margin-top:10%;
+}
+.contact-info img{
+    margin-bottom: 15%;
+}
+.contact-info h2{
+    margin-bottom: 10%;
+    margin-top: 0;
+    padding-bottom: 50px;
+    font-size: 2rem;
+}
+/* Style inputs  */
+.input {
+    width: 60%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  /* Style the submit button  */
+  .sent {
+    background-color: #cd3e3a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .sent:hover {
+    background-color: #a92e2b;
+  }
+  
+  .contact-form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding-top: 60px;
+    margin-right: 5%;
+    margin-left: 10%;
+    width: 70%;
+    height: 400px;
+    background-color: white;
+  }
+  .contact-form label {
+    color: #cd3e3a;
+  }
