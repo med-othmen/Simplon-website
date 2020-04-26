@@ -1,0 +1,16 @@
+.nouveaute{
+    margin-top: 45px;
+    display: flex;
+}
+
+.nouv{
+    text-align: center;
+}
+.card{
+    border-radius: 0%;
+    width: 350px;
+}
+
+.text{
+    color:gray;
+}

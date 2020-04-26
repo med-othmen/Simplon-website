@@ -1,0 +1,25 @@
+.main{
+
+    padding-top: 10px;
+}
+
+.title{
+font-size: 30px;
+color :;
+}
+
+
+.introduction{
+color:gray;
+font-size: 20px;
+
+}
+
+
+@media screen and (min-width: 500px) {
+    .main {
+      margin-left:10%;
+      margin-right:10%;
+    
+    }
+  }
