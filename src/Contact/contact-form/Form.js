@@ -22,7 +22,7 @@ function Submit() {
 function FormContact() {
   return (
     
-    <div className="container">
+    <div className="containere">
         <Info/>
         <div className="contact-form">
             <div >

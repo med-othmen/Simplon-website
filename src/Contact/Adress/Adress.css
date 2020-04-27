@@ -1,8 +1,8 @@
-.container{
+.containerr{
     display: flex;
     justify-content: space-between;
 }
-.title{
+.titlee{
     margin-top: 50px;
     margin-left: 60px;
     font-size: 2rem;

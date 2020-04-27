@@ -1,14 +1,13 @@
 import React from 'react';
-import Adress from './Adress.css'
-import { Map, Marker, GoogleApiWrapper } from 'google-maps-react'
+import './Adress.css'
 
 
 
 function ContactAdress() {
     return(
 <div>
-<h2 className="title">Contact Address</h2>
-<div className="container">
+<h2 className="titlee">Contact Address</h2>
+<div className="containerr">
     
     <div className="location">
         <iframe src="https://maps.google.com/maps?q=simplon%20tunis&t=&z=13&ie=UTF8&iwloc=&output=embed" 

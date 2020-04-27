@@ -6,6 +6,7 @@ import logo1 from './img/partenaires-logo/Logo Societé générale.png'
 import logo2 from './img/partenaires-logo/logo-ile-de-france.png'
 import logo3 from './img/partenaires-logo/partner3.jpeg'
 import Partners from './Partenaires/Partenaires'
+import Intro from './intro-equipe/index'
 
 
 // importer les images des actualités section 
@@ -42,9 +43,11 @@ function Accueil() {
 
   return (
     <div className="App">
-      
+    
+   <Intro/>  
    <Nouveaute nouveaute={nouveautés} />
    <Partners  Partner= {Partner} />
+   
 
     </div>
   )

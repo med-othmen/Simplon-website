@@ -9,12 +9,12 @@ function Partners(props) {
        Nous remercions toutes les personnes qui nous ont soutenus au fil des ans. <br/> Nous remercions en particulier :
        </h3>
 
-        <div className="main">
+        <div className="mainn">
         { props.Partner.map(  el =>
-                <div className="container">
-                    <img src={el.source} alt={el.name}  class="image"/>
-                    <div class="overlay">
-                    <div class="text"> {el.name} 
+                <div className="containers">
+                    <img src={el.source} alt={el.name}  class="imagee"/>
+                    <div class="overlayy">
+                    <div class="textt"> {el.name} 
                     </div>
                 </div>
           

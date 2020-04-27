@@ -1,8 +1,15 @@
-.main{
+.mainn{
   display: flex;
   flex-direction: row;
+ 
 }
-h2{
+.partenaire {
+  border-width:5px;  
+  border-style:inset;
+  border-color: #cd3e3a;
+  margin-top: 50px;
+}
+.partenaire h2{
   margin-top: 50px;
   font-size: 2rem;
   padding: 10px 3px;
@@ -11,7 +18,7 @@ h2{
   color: #cd3e3a;
   width: 250px;
 }
-h3 {
+.partenaire h3 {
   margin-top: 50px;
   margin-bottom: 50px;
   font-size: 2rem;
@@ -21,13 +28,13 @@ h3 {
   color: gray;
   
 }
-.container {
+.containers {
     position: relative;
     width: 400px;
     height: 250px;
   }
   
-  .image {
+  .imagee {
     display: block;
     width: 80%;
     height: auto;
@@ -35,7 +42,7 @@ h3 {
     margin-right: 50px;
   }
   
-  .overlay {
+  .overlayy {
     position: absolute;
     bottom: 100%;
     left: 0;
@@ -47,12 +54,12 @@ h3 {
     transition: .5s ease;
   }
   
-  .container:hover .overlay {
+  .containers:hover .overlayy {
     bottom: 0;
     height: 100%;
   }
   
-  .text {
+  .textt {
     white-space: nowrap; 
     color: white;
     font-size: 20px;
