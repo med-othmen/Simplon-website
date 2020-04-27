@@ -1,6 +1,6 @@
 import React from "react";
 import "./header.css";
-import List from "./List/List";
+import List from './List/List'
 
 
 
