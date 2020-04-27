@@ -1,0 +1,29 @@
+.carte1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+
+  border-radius: 7%;
+}
+
+.photo1 {
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 7%;
+}
+
+p {
+  font-family: "Patua One", serif;
+  letter-spacing: 2px;
+  font-weight: 200;
+  color: grey;
+}
+
+h2 {
+  font-family: "Patua One", serif;
+  letter-spacing: 2px;
+  font-size: 50px;
+  color: rgb(117, 96, 96);
+}
