@@ -8,6 +8,7 @@ import Cardleft from './cardleft/cardleft';
 import Cardright from './cardright/cardright';
 import Cardmiddle from './cardmiddle/cardmiddle';
 import video from './images/video-SIMPLON-HD.mp4'
+import { BrowserRouter ,Route} from 'react-router-dom'
 
 
 

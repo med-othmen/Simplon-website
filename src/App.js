@@ -1,22 +1,36 @@
 
 import React from "react";
 import "./App.css";
-import ContactPage from './Contact/MainContact.js'
-import Equipe from './equipe/main'  // importer les composents de la page equipe
-import Accueil from './Accueil/mainEquipe'  // importer les composents de la page accueil
 import Navbar from './navbar/header'
-import Apropos from './apropos/mainApropos'
 import Footer from './footer/footer'
+import Apropos from'./apropos/mainApropos'
+import Equipe from'./equipe/main'
+import ContactPage from './Contact/MainContact'
+import Accueil from './Accueil/mainEquipe'
+import{BrowserRouter,Route}from 'react-router-dom'
+
 
 function App() {
 
   return (
-    <div className="app">
-      <Navbar/>
-      <Accueil/>
+    
       
+    
+      
+      
+      
+      <BrowserRouter>
+      <div className="app">
+      <Navbar/>
+      <Route exact path="/" component={Accueil} />
+      <Route  path="/Apropos" component={Apropos} />
+      <Route path="/Contact" component={ContactPage} />
+      <Route path="/Equipe" component={Equipe} />
       <Footer/>
-    </div>
+      </div>
+      </BrowserRouter>
+     
+    
   )
 }
 
